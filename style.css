@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    background-color: rgb(247, 247, 247); 
+}
+
+.topbar{
+
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid grey;
+
+}
+
+.sx_dx{
+    display: flex;
+}
+
+.i{
+    font-size: 50px;
+}
+
+.topbardx{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+
+}
+
+
+.topbar_items{
+    margin: 5px;
+}
+.resume{
+    border-radius: 25px;
+    height: 35px;
+    cursor: pointer;
+}
+.logo{
+    width: 150px;
+    margin-left: 50px;
+}
+
+
+.dx{
+    width: 30%;
+    height: 1000px;
+   background-color: rgb(247, 247, 247); 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-left: 15px;
+   margin-top: 25px;
+  }
+
+.sx{
+    width: 60%;
+    display: inline-block;
+    background-color: rgb(247, 247, 247); 
+    height: 1000px;
+    margin-left: 50px;
+    border-right: 1px solid grey;
+    
+}
+
+.link{
+    margin-top: 50px;
+    border-bottom: 1px solid grey;
+    margin-right: 30px;
+    padding-bottom: 8px;
+   
+    
+}
+a{
+    text-decoration: none;
+    margin-right: 25px;
+    margin-left: 5px;
+}
+
+h3{
+    display: block;
+}
+.DIV_A{
+    background-color: rgb(247, 247, 247); 
+    margin-bottom: 15px;
+    height: 180px;
+    display: flex;
+    
+    
+    
+    
+    
+    
+}
+.div_B{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.div_C{
+    width: 100%;;
+    display: inline-block;
+    
+    text-align:justify;
+    
+    
+}
+.prova{
+    
+    width: 65%;
+   
+   
+}
+
+.div_D{
+    width: 195px;
+    display: inline-block;
+}
+
+.div_D img{
+    width: 100%;
+}
+
+
+
+.div_dx{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(247, 247, 247); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+.logo_medium_dx{
+    width: 50px;
+    display: inline-block;
+}
+.logo_x{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+
+.plus {
+    display: inline;
+    font-size: 50px;
+
+}
+
+.loghi{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.up_button {
+    width: 200px;
+    text-align: center;
+    margin-top: 2px;
+}
+
+
+
+.button_1{
+    height:50px;
+    width: 200px;
+    border-radius: 50px;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.topbardx a{
+    margin: 0;
+    color: black;
+}
+.span_button1{
+    width: 150px;
+  
+    margin: 0;
+    
+}
+
+.up_h{
+    display: flex;
+    align-items: center;
+}
+
+.div_C h2{
+    margin-top: 5px;
+}
+
+.up_h span{
+    margin-left: 15px;
+}
+
+.divunder_p{
+    margin: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0px;
+}
+
+.divunder_p div{
+    color: black;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.divunder_p div a {
+    display: contents;
+    cursor: pointer;
+}
+
+
+.under_p{
+    margin: 5px;
+    font-size: 13px;
+}
+
+.logo_x_button{
+    width: 25px;
+    height: 25px;
+    /*display: inline; */
+    background-color: black;
+}
+
+
+.down_button{
+    text-align: center;
+    font-weight: 100;
+    text-decoration-line: underline;
+}
+
+.div_dx2{
+    width: 100%;
+    height: 1000px;
+    background-color: green(255, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin: 5px;
+    margin-left: 25px;
+}
+
+.div_dx2 h{
+    margin-left: 20px;
+}
+
+.topic{
+    display: inline-block;
+    margin:5px;
+    padding: 5px;
+    
+}
+
+.div_topic{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.button_topic{
+    border-radius: 50px;
+    background-color:grey;
+    height: 35px;
+    margin: 10px;
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.div_dx3{
+    width: 300px;
+    margin-left: 25px;
+    
+}
+.div_dx3 h3{
+margin-left: 25px;
+}
+
+.follow{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    height: 50px;
+    
+    
+    
+}
+
+.follow img{
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%;
+}
+
+.follow h3{
+    margin: 0;
+}
+.follow div{
+    margin: 20px;
+    width: 250px;
+    
+}
+
+.follow button{
+    cursor: pointer;
+}
+
+.button_endpage{
+    border-radius: 50px;
+    background-color:grey;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.div_endpage{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.div_saved{
+    width: 350px;
+    
+    margin: 15px;
+
+}
+
+.div_saved_h2{
+    margin-top: 5px
+}
